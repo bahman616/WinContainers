@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SampleWinContainers/.vs/SampleWinContainers
+/SampleWinContainers/packages
+/SampleWinContainers/SampleWebsite/bin
+/SampleWinContainers/SampleWebsite/obj
