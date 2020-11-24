@@ -1,0 +1,13 @@
+# directories
+**/packages/
+**/bin/
+**/obj/
+**/out/
+
+# files
+Dockerfile*
+.dockerignore
+Start.ps1
+*.env
+**/*.trx
+**/*.md
