@@ -1,6 +1,6 @@
 param(
     # Arbitrary ip addresses for the container. You need to do a "docker inspec nat" and make sure this ip address is valid on the subnet.
-    $IP = "172.25.128.3"
+    $IP = "172.30.96.2"
 )
 
 
@@ -32,6 +32,6 @@ param(
 
     if ($LASTEXITCODE -ne 0) 
     {
-        Write-Error -Message "Failed to run these container"  -f red
+        Write-Error -Message "Failed to run these container" 
         exit $LASTEXITCODE
     }
