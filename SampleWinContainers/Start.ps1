@@ -35,3 +35,10 @@ param(
         Write-Error -Message "Failed to run these container" 
         exit $LASTEXITCODE
     }
+
+    Write-Host ''
+    Write-Host "The container has been created. Open your browser and navigate to http://$IP" -f green
+
+    Write-Host ''
+    Write-Host '---------------Fin ---------------' -f cyan
+    Write-Host ''

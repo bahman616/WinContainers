@@ -4,7 +4,6 @@ FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019 AS bu
 WORKDIR /app
 
 COPY . .
-WORKDIR /app
 RUN nuget restore;
 RUN msbuild /p:Configuration=Debug
 
