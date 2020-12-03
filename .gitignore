@@ -6,3 +6,11 @@
 /SampleWinContainers/packages
 /SampleWinContainers/SampleWebsite/bin
 /SampleWinContainers/SampleWebsite/obj
+
+# User-specific files
+*.suo
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
